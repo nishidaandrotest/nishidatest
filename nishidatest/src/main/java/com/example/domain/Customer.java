@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Data //getter/setter/コンストラクタの自動生成
-@NoArgsConstructor
+@NoArgsConstructor //引数なしのコンストラクタ
 @AllArgsConstructor
 
 @Entity //jpaエンティティ
