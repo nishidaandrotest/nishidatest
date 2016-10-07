@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Data //getter/setter/コンストラクタの自動生成
 @NoArgsConstructor //引数なしのコンストラクタ
-@AllArgsConstructor
+@AllArgsConstructor //追加
 
 @Entity //jpaエンティティ
 @Table(name = "customers") //tb名
